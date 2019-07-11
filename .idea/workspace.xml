@@ -1,0 +1,978 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" readonly="true" id="e668203f-8fc1-472a-9bef-b5f02e7279c1" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/pythonproject$average.coverage" NAME="average Coverage Results" MODIFIED="1561689164814" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/hyjf/smoothpython" />
+    <SUITE FILE_PATH="coverage/pythonproject$produceconsumetest.coverage" NAME="produceconsumetest Coverage Results" MODIFIED="1558495651301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/hyjf" />
+    <SUITE FILE_PATH="coverage/pythonproject$collectiontest.coverage" NAME="collectiontest Coverage Results" MODIFIED="1558594140807" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/hyjf" />
+    <SUITE FILE_PATH="coverage/pythonproject$introspectiontest.coverage" NAME="introspectiontest Coverage Results" MODIFIED="1558596004049" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/hyjf" />
+    <SUITE FILE_PATH="coverage/pythonproject$tmptest.coverage" NAME="tmptest Coverage Results" MODIFIED="1561360794192" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/hyjf" />
+    <SUITE FILE_PATH="coverage/pythonproject$syncdbtool.coverage" NAME="syncdbtool Coverage Results" MODIFIED="1561455494110" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/hyjf/class" />
+    <SUITE FILE_PATH="coverage/pythonproject$containoverload.coverage" NAME="containoverload Coverage Results" MODIFIED="1559611231094" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/hyjf/class" />
+    <SUITE FILE_PATH="coverage/pythonproject$binggocall.coverage" NAME="binggocall Coverage Results" MODIFIED="1561431098026" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/hyjf" />
+    <SUITE FILE_PATH="coverage/pythonproject$decoratortest3.coverage" NAME="decoratortest3 Coverage Results" MODIFIED="1558591692305" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/hyjf" />
+    <SUITE FILE_PATH="coverage/pythonproject$haiguihuitu.coverage" NAME="haiguihuitu Coverage Results" MODIFIED="1558065390909" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/hyjf" />
+    <SUITE FILE_PATH="coverage/pythonproject$sockettest.coverage" NAME="sockettest Coverage Results" MODIFIED="1558419396388" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/hyjf/io" />
+    <SUITE FILE_PATH="coverage/pythonproject$chanllenge2.coverage" NAME="chanllenge2 Coverage Results" MODIFIED="1558927198482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/hyjf/pythonchanllenge" />
+    <SUITE FILE_PATH="coverage/pythonproject$chanllenge4.coverage" NAME="chanllenge4 Coverage Results" MODIFIED="1558930660474" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/hyjf/pythonchanllenge" />
+    <SUITE FILE_PATH="coverage/pythonproject$chain.coverage" NAME="chain Coverage Results" MODIFIED="1562052149774" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/hyjf/smoothpython" />
+    <SUITE FILE_PATH="coverage/pythonproject$iterabletest.coverage" NAME="iterabletest Coverage Results" MODIFIED="1558579218694" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/hyjf" />
+    <SUITE FILE_PATH="coverage/pythonproject$shallowcopy.coverage" NAME="shallowcopy Coverage Results" MODIFIED="1561693528708" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/hyjf/smoothpython" />
+    <SUITE FILE_PATH="coverage/pythonproject$fibonacci.coverage" NAME="fibonacci Coverage Results" MODIFIED="1561691930111" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/hyjf/smoothpython" />
+    <SUITE FILE_PATH="coverage/pythonproject$decoratortest.coverage" NAME="decoratortest Coverage Results" MODIFIED="1558582633197" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/hyjf" />
+    <SUITE FILE_PATH="coverage/pythonproject$threadlocaltest.coverage" NAME="threadlocaltest Coverage Results" MODIFIED="1557913279091" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pythonproject$comprehensionstest.coverage" NAME="comprehensionstest Coverage Results" MODIFIED="1558597257277" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/hyjf" />
+    <SUITE FILE_PATH="coverage/pythonproject$wsgitest.coverage" NAME="wsgitest Coverage Results" MODIFIED="1558339922126" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/hyjf" />
+    <SUITE FILE_PATH="coverage/pythonproject$tracerrrr.coverage" NAME="tracerrrr Coverage Results" MODIFIED="1559641684302" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/hyjf/class" />
+    <SUITE FILE_PATH="coverage/pythonproject$urllibtest.coverage" NAME="urllibtest Coverage Results" MODIFIED="1557997827990" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/hyjf" />
+    <SUITE FILE_PATH="coverage/pythonproject$requesttest.coverage" NAME="requesttest Coverage Results" MODIFIED="1558921102870" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/hyjf/crawler" />
+    <SUITE FILE_PATH="coverage/pythonproject$wrapper.coverage" NAME="wrapper Coverage Results" MODIFIED="1559615611565" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/hyjf/class" />
+    <SUITE FILE_PATH="coverage/pythonproject$tracer.coverage" NAME="tracer Coverage Results" MODIFIED="1559637650037" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/hyjf/class" />
+    <SUITE FILE_PATH="coverage/pythonproject$jyh.coverage" NAME="jyh Coverage Results" MODIFIED="1561429580885" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/hyjf" />
+    <SUITE FILE_PATH="coverage/pythonproject$server.coverage" NAME="server Coverage Results" MODIFIED="1558339935939" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/hyjf" />
+    <SUITE FILE_PATH="coverage/pythonproject$api.coverage" NAME="api Coverage Results" MODIFIED="1560223521316" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/hyjf/pandas" />
+    <SUITE FILE_PATH="coverage/pythonproject$registration.coverage" NAME="registration Coverage Results" MODIFIED="1561624597293" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/hyjf/smoothpython" />
+    <SUITE FILE_PATH="coverage/pythonproject$coroaverage.coverage" NAME="coroaverage Coverage Results" MODIFIED="1562040206780" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/hyjf/smoothpython" />
+    <SUITE FILE_PATH="coverage/pythonproject$test.coverage" NAME="test Coverage Results" MODIFIED="1558930344715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/hyjf/pythonchanllenge" />
+    <SUITE FILE_PATH="coverage/pythonproject$argskwargstest.coverage" NAME="argskwargstest Coverage Results" MODIFIED="1558577061978" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/hyjf" />
+    <SUITE FILE_PATH="coverage/pythonproject$call_test.coverage" NAME="call_test Coverage Results" MODIFIED="1558576677193" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/hyjf/asyncio" />
+    <SUITE FILE_PATH="coverage/pythonproject$piltest.coverage" NAME="piltest Coverage Results" MODIFIED="1558061632193" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/hyjf" />
+    <SUITE FILE_PATH="coverage/pythonproject$requeststest.coverage" NAME="requeststest Coverage Results" MODIFIED="1558064188380" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/hyjf" />
+    <SUITE FILE_PATH="coverage/pythonproject$chanllenge3.coverage" NAME="chanllenge3 Coverage Results" MODIFIED="1558929097598" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/hyjf/pythonchanllenge" />
+    <SUITE FILE_PATH="coverage/pythonproject$overroad.coverage" NAME="overroad Coverage Results" MODIFIED="1559556341510" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/hyjf/class" />
+    <SUITE FILE_PATH="coverage/pythonproject$pandastest.coverage" NAME="pandastest Coverage Results" MODIFIED="1560225896419" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/hyjf/pandas" />
+    <SUITE FILE_PATH="coverage/pythonproject$privateproperty.coverage" NAME="privateproperty Coverage Results" MODIFIED="1559613067543" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/hyjf/class" />
+    <SUITE FILE_PATH="coverage/pythonproject$NextClass.coverage" NAME="NextClass Coverage Results" MODIFIED="1559269318667" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/hyjf/class" />
+    <SUITE FILE_PATH="coverage/pythonproject$strategyrefactor.coverage" NAME="strategyrefactor Coverage Results" MODIFIED="1561624868346" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/hyjf/smoothpython" />
+    <SUITE FILE_PATH="coverage/pythonproject$boundtest.coverage" NAME="boundtest Coverage Results" MODIFIED="1559618163689" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/hyjf/class" />
+    <SUITE FILE_PATH="coverage/pythonproject$flasktest.coverage" NAME="flasktest Coverage Results" MODIFIED="1558341314334" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/hyjf" />
+    <SUITE FILE_PATH="coverage/pythonproject$filtertest.coverage" NAME="filtertest Coverage Results" MODIFIED="1558580800243" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/hyjf" />
+    <SUITE FILE_PATH="coverage/pythonproject$callback.coverage" NAME="callback Coverage Results" MODIFIED="1559614190412" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/hyjf/class" />
+    <SUITE FILE_PATH="coverage/pythonproject$psutiltest.coverage" NAME="psutiltest Coverage Results" MODIFIED="1558064941000" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/hyjf" />
+    <SUITE FILE_PATH="coverage/pythonproject$yieldtest.coverage" NAME="yieldtest Coverage Results" MODIFIED="1558490984159" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/hyjf/io" />
+    <SUITE FILE_PATH="coverage/pythonproject$tmp.coverage" NAME="tmp Coverage Results" MODIFIED="1558586869929" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/hyjf" />
+    <SUITE FILE_PATH="coverage/pythonproject$FirstClass.coverage" NAME="FirstClass Coverage Results" MODIFIED="1559185887799" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/hyjf/class" />
+    <SUITE FILE_PATH="coverage/pythonproject$simplecoroutine.coverage" NAME="simplecoroutine Coverage Results" MODIFIED="1562038858079" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/hyjf/smoothpython" />
+    <SUITE FILE_PATH="coverage/pythonproject$mutationtest.coverage" NAME="mutationtest Coverage Results" MODIFIED="1558592830784" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com" />
+    <SUITE FILE_PATH="coverage/pythonproject$calc_attendance.coverage" NAME="calc_attendance Coverage Results" MODIFIED="1562818395955" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/hyjf/utils" />
+    <SUITE FILE_PATH="coverage/pythonproject$mutireturntest.coverage" NAME="mutireturntest Coverage Results" MODIFIED="1558592408574" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/hyjf" />
+    <SUITE FILE_PATH="coverage/pythonproject$Empty.coverage" NAME="Empty Coverage Results" MODIFIED="1559612080527" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/hyjf/class" />
+    <SUITE FILE_PATH="coverage/pythonproject$namedtupletest.coverage" NAME="namedtupletest Coverage Results" MODIFIED="1558595206394" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/hyjf" />
+    <SUITE FILE_PATH="coverage/pythonproject$coroaverager3.coverage" NAME="coroaverager3 Coverage Results" MODIFIED="1562057438090" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/hyjf/smoothpython" />
+    <SUITE FILE_PATH="coverage/pythonproject$mutiIterator.coverage" NAME="mutiIterator Coverage Results" MODIFIED="1559556614024" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/hyjf/class" />
+    <SUITE FILE_PATH="coverage/pythonproject$hashlibtest.coverage" NAME="hashlibtest Coverage Results" MODIFIED="1557995683370" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com" />
+    <SUITE FILE_PATH="coverage/pythonproject$person.coverage" NAME="person Coverage Results" MODIFIED="1559641015859" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/hyjf/class" />
+    <SUITE FILE_PATH="coverage/pythonproject$maptest.coverage" NAME="maptest Coverage Results" MODIFIED="1558580022274" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/hyjf" />
+    <SUITE FILE_PATH="coverage/pythonproject$simplecoro2.coverage" NAME="simplecoro2 Coverage Results" MODIFIED="1562039665896" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/hyjf/smoothpython" />
+    <SUITE FILE_PATH="coverage/pythonproject$thread.coverage" NAME="thread Coverage Results" MODIFIED="1557911257327" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pythonproject$randomfontimage.coverage" NAME="randomfontimage Coverage Results" MODIFIED="1558063208651" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/hyjf" />
+    <SUITE FILE_PATH="coverage/pythonproject$fibtest.coverage" NAME="fibtest Coverage Results" MODIFIED="1558344854299" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/hyjf" />
+    <SUITE FILE_PATH="coverage/pythonproject$pythonchanllenge.coverage" NAME="pythonchanllenge Coverage Results" MODIFIED="1558924161095" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/hyjf" />
+    <SUITE FILE_PATH="coverage/pythonproject$chardettest.coverage" NAME="chardettest Coverage Results" MODIFIED="1558064503240" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/hyjf" />
+    <SUITE FILE_PATH="coverage/pythonproject$yield_from_test.coverage" NAME="yield_from_test Coverage Results" MODIFIED="1558491765567" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/hyjf/io" />
+    <SUITE FILE_PATH="coverage/pythonproject$listInstance.coverage" NAME="listInstance Coverage Results" MODIFIED="1559619167126" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/hyjf/class" />
+    <SUITE FILE_PATH="coverage/pythonproject$demosocket.coverage" NAME="demosocket Coverage Results" MODIFIED="1558419391594" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/hyjf/io" />
+    <SUITE FILE_PATH="coverage/pythonproject$locktest.coverage" NAME="locktest Coverage Results" MODIFIED="1557912147577" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pythonproject$Student.coverage" NAME="Student Coverage Results" MODIFIED="1560870352725" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pythonproject$chanllenge5.coverage" NAME="chanllenge5 Coverage Results" MODIFIED="1558942297688" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/hyjf/pythonchanllenge" />
+    <SUITE FILE_PATH="coverage/pythonproject$classdict.coverage" NAME="classdict Coverage Results" MODIFIED="1559273529899" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/hyjf/class" />
+    <SUITE FILE_PATH="coverage/pythonproject$timeelapsedcount.coverage" NAME="timeelapsedcount Coverage Results" MODIFIED="1561689171620" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/hyjf/smoothpython" />
+    <SUITE FILE_PATH="coverage/pythonproject$coroutine_test.coverage" NAME="coroutine_test Coverage Results" MODIFIED="1558512162000" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/hyjf/asyncio" />
+    <SUITE FILE_PATH="coverage/pythonproject$Callee.coverage" NAME="Callee Coverage Results" MODIFIED="1559613392738" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/hyjf/class" />
+    <SUITE FILE_PATH="coverage/pythonproject$settest.coverage" NAME="settest Coverage Results" MODIFIED="1558582058333" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/hyjf" />
+    <SUITE FILE_PATH="coverage/pythonproject$parametescope.coverage" NAME="parametescope Coverage Results" MODIFIED="1561625258667" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/hyjf/smoothpython" />
+    <SUITE FILE_PATH="coverage/pythonproject$datetimetest.coverage" NAME="datetimetest Coverage Results" MODIFIED="1557990213303" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/hyjf" />
+    <SUITE FILE_PATH="coverage/pythonproject$decorator.coverage" NAME="decorator Coverage Results" MODIFIED="1559640903113" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/hyjf/class" />
+    <SUITE FILE_PATH="coverage/pythonproject$strategy.coverage" NAME="strategy Coverage Results" MODIFIED="1561516828290" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/hyjf/smoothpython" />
+    <SUITE FILE_PATH="coverage/pythonproject$logdecoratortest.coverage" NAME="logdecoratortest Coverage Results" MODIFIED="1558584139124" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/hyjf" />
+    <SUITE FILE_PATH="coverage/pythonproject$decoratortest2.coverage" NAME="decoratortest2 Coverage Results" MODIFIED="1558582945996" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/hyjf" />
+    <SUITE FILE_PATH="coverage/pythonproject$abstracttest.coverage" NAME="abstracttest Coverage Results" MODIFIED="1559271799142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/hyjf/class" />
+    <SUITE FILE_PATH="coverage/pythonproject$registry.coverage" NAME="registry Coverage Results" MODIFIED="1559722507951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/hyjf/class" />
+    <SUITE FILE_PATH="coverage/pythonproject$login.coverage" NAME="login Coverage Results" MODIFIED="1558505521315" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/hyjf" />
+    <SUITE FILE_PATH="coverage/pythonproject$collectionstest.coverage" NAME="collectionstest Coverage Results" MODIFIED="1557991339519" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/hyjf" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="calc_attendance.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/com/hyjf/utils/calc_attendance.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="748">
+              <caret line="92" column="20" selection-start-line="92" selection-start-column="20" selection-end-line="92" selection-end-column="20" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="datetime.py" pinned="false" current-in-tab="false">
+        <entry file="file://G:/Python/Python37/Lib/datetime.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1720" column="8" selection-start-line="1720" selection-start-column="8" selection-end-line="1720" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="datetime.pyi" pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/stdlib/2and3/datetime.pyi">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="179" column="12" selection-start-line="179" selection-start-column="12" selection-end-line="179" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>assert</find>
+      <find>Urllib</find>
+      <find>%s</find>
+      <find>我的</find>
+      <find>rnak</find>
+      <find>discount</find>
+      <find>datetime.</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>print</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/com/hyjf/pythonchanllenge.py" />
+        <option value="$PROJECT_DIR$/com/hyjf/pythonchanllenge/chanllenge2.py" />
+        <option value="$PROJECT_DIR$/com/hyjf/pythonchanllenge/chanllenge3.py" />
+        <option value="$PROJECT_DIR$/com/hyjf/pythonchanllenge/test.py" />
+        <option value="$PROJECT_DIR$/com/hyjf/pythonchanllenge/chanllenge4.py" />
+        <option value="$PROJECT_DIR$/com/hyjf/pythonchanllenge/chanllenge5.py" />
+        <option value="$PROJECT_DIR$/com/hyjf/class/testModule.py" />
+        <option value="$PROJECT_DIR$/com/hyjf/testModule.py" />
+        <option value="$PROJECT_DIR$/com/hyjf/classs/FirstClass.py" />
+        <option value="$PROJECT_DIR$/com/hyjf/class/FirstClass.py" />
+        <option value="$PROJECT_DIR$/com/hyjf/class/NextClass.py" />
+        <option value="$PROJECT_DIR$/com/hyjf/class/abstracttest.py" />
+        <option value="$PROJECT_DIR$/com/hyjf/class/classdict.py" />
+        <option value="$PROJECT_DIR$/com/hyjf/class/overroad.py" />
+        <option value="$PROJECT_DIR$/com/hyjf/class/mutiIterator.py" />
+        <option value="$PROJECT_DIR$/com/hyjf/class/containoverload.py" />
+        <option value="$PROJECT_DIR$/com/hyjf/class/Empty.py" />
+        <option value="$PROJECT_DIR$/com/hyjf/class/privateproperty.py" />
+        <option value="$PROJECT_DIR$/com/hyjf/class/Callee.py" />
+        <option value="$PROJECT_DIR$/com/hyjf/class/callback.py" />
+        <option value="$PROJECT_DIR$/com/hyjf/class/wrapper.py" />
+        <option value="$PROJECT_DIR$/com/hyjf/class/boundtest.py" />
+        <option value="$PROJECT_DIR$/com/hyjf/class/listInstance.py" />
+        <option value="$PROJECT_DIR$/com/hyjf/class/tracer.py" />
+        <option value="$PROJECT_DIR$/com/hyjf/class/decorator.py" />
+        <option value="$PROJECT_DIR$/com/hyjf/class/person.py" />
+        <option value="$PROJECT_DIR$/com/hyjf/class/tracerrrr.py" />
+        <option value="$PROJECT_DIR$/com/hyjf/class/tmp.py" />
+        <option value="$PROJECT_DIR$/com/hyjf/class/registry.py" />
+        <option value="$PROJECT_DIR$/com/hyjf/pandas/api.py" />
+        <option value="$PROJECT_DIR$/com/hyjf/pandas/pandastest.py" />
+        <option value="$PROJECT_DIR$/Student.py" />
+        <option value="$PROJECT_DIR$/com/hyjf/tmptest.py" />
+        <option value="$PROJECT_DIR$/com/hyjf/jyh.py" />
+        <option value="$PROJECT_DIR$/com/hyjf/binggocall.py" />
+        <option value="$PROJECT_DIR$/com/hyjf/class/syncdbtool.py" />
+        <option value="$PROJECT_DIR$/com/hyjf/smoothpython/strategy.py" />
+        <option value="$PROJECT_DIR$/com/hyjf/smoothpython/registration.py" />
+        <option value="$PROJECT_DIR$/com/hyjf/smoothpython/strategyrefactor.py" />
+        <option value="$PROJECT_DIR$/com/hyjf/smoothpython/parametescope.py" />
+        <option value="$PROJECT_DIR$/com/hyjf/smoothpython/average.py" />
+        <option value="$PROJECT_DIR$/com/hyjf/smoothpython/timeelapsedcount.py" />
+        <option value="$PROJECT_DIR$/com/hyjf/smoothpython/fibonacci.py" />
+        <option value="$PROJECT_DIR$/com/hyjf/smoothpython/shallowcopy.py" />
+        <option value="$PROJECT_DIR$/com/hyjf/smoothpython/simplecoroutine.py" />
+        <option value="$PROJECT_DIR$/com/hyjf/smoothpython/simplecoro2.py" />
+        <option value="$PROJECT_DIR$/com/hyjf/smoothpython/coroaverage.py" />
+        <option value="$PROJECT_DIR$/com/hyjf/smoothpython/chain.py" />
+        <option value="$PROJECT_DIR$/com/hyjf/smoothpython/coroaverager3.py" />
+        <option value="$PROJECT_DIR$/com/hyjf/utils/calc-attendance.py" />
+        <option value="$PROJECT_DIR$/com/hyjf/utils/calc_attendance.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+        <option name="userSettingsFile" value="G:\.m2\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1356" />
+    <option name="y" value="-10" />
+    <option name="width" value="2580" />
+    <option name="height" value="1410" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="pythonproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pythonproject" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pythonproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pythonproject" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pythonproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pythonproject" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="hyjf" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pythonproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pythonproject" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="hyjf" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../hyjf/hyjf_cloud/pom.xml" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="pythonproject">
+        <option name="myModuleName" value="pythonproject" />
+      </console-settings>
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\workspace\pythonproject\com\hyjf" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.calc_attendance">
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="calc_attendance" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pythonproject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/hyjf/utils" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/com/hyjf/utils/calc_attendance.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="chain" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pythonproject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/hyjf/smoothpython" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/com/hyjf/smoothpython/chain.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="coroaverage" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pythonproject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/hyjf/smoothpython" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/com/hyjf/smoothpython/coroaverage.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="coroaverager3" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pythonproject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/hyjf/smoothpython" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/com/hyjf/smoothpython/coroaverager3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="simplecoro2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pythonproject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/hyjf/smoothpython" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/com/hyjf/smoothpython/simplecoro2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <list>
+      <item itemvalue="Python.simplecoro2" />
+      <item itemvalue="Python.coroaverage" />
+      <item itemvalue="Python.chain" />
+      <item itemvalue="Python.coroaverager3" />
+      <item itemvalue="Python.calc_attendance" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.calc_attendance" />
+        <item itemvalue="Python.coroaverager3" />
+        <item itemvalue="Python.chain" />
+        <item itemvalue="Python.coroaverage" />
+        <item itemvalue="Python.simplecoro2" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>C:\Users\cui\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e668203f-8fc1-472a-9bef-b5f02e7279c1" name="Default" comment="" />
+      <created>1557892490152</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1557892490152</updated>
+      <workItem from="1557892494088" duration="9309000" />
+      <workItem from="1557968597327" duration="10907000" />
+      <workItem from="1558055198035" duration="893000" />
+      <workItem from="1558060536521" duration="5481000" />
+      <workItem from="1558314162676" duration="8431000" />
+      <workItem from="1558406697540" duration="7182000" />
+      <workItem from="1558486373798" duration="14001000" />
+      <workItem from="1558575341712" duration="18192000" />
+      <workItem from="1558681617466" duration="615000" />
+      <workItem from="1558682426716" duration="4436000" />
+      <workItem from="1558919389492" duration="18323000" />
+      <workItem from="1559181743867" duration="8961000" />
+      <workItem from="1559263784759" duration="6720000" />
+      <workItem from="1559524355510" duration="8185000" />
+      <workItem from="1559609129665" duration="17983000" />
+      <workItem from="1559698317888" duration="12323000" />
+      <workItem from="1559784716466" duration="544000" />
+      <workItem from="1560128271151" duration="2727000" />
+      <workItem from="1560214202067" duration="10996000" />
+      <workItem from="1560325418269" duration="1799000" />
+      <workItem from="1560388042139" duration="659000" />
+      <workItem from="1560867229740" duration="62000" />
+      <workItem from="1560867312069" duration="1829000" />
+      <workItem from="1561345107350" duration="12368000" />
+      <workItem from="1561423906960" duration="5907000" />
+      <workItem from="1561512137441" duration="6492000" />
+      <workItem from="1561596765412" duration="4166000" />
+      <workItem from="1561683728874" duration="11383000" />
+      <workItem from="1561942834107" duration="1143000" />
+      <workItem from="1562038370116" duration="10407000" />
+      <workItem from="1562145976788" duration="670000" />
+      <workItem from="1562202066657" duration="1186000" />
+      <workItem from="1562748463809" duration="4291000" />
+      <workItem from="1562808942996" duration="10725000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="239296000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1360" y="-6" width="2061" height="1165" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="RestServices" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Designer" order="5" />
+      <window_info anchor="bottom" id="Statistic" order="12" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="3" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4164251" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.40772948" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="MyBatis Sql Log" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.23142144" />
+      <window_info anchor="right" id="SciView" order="6" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="13" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3294686" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Designer" order="5" />
+      <window_info anchor="bottom" id="Messages" order="13" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4173913" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Statistic" order="12" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info anchor="bottom" id="MyBatis Sql Log" order="7" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3294686" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23142144" />
+      <window_info anchor="right" id="SciView" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="RestServices" order="10" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4164251" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+      <option name="time" value="5" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/com/hyjf/pythonchanllenge/chanllenge5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/hyjf/pythonchanllenge/chanllenge2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/hyjf/class/overroad.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="867">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/hyjf/class/mutiIterator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="30" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/hyjf/io/sockettest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="13" lean-forward="true" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/hyjf/class/containoverload.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="466">
+          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/hyjf/class/Empty.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/hyjf/class/privateproperty.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/hyjf/class/Callee.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="20" lean-forward="true" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/hyjf/class/callback.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="18" lean-forward="true" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.IntelliJIdea2018.1/system/python_stubs/1562548280/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="180" column="4" selection-start-line="180" selection-start-column="4" selection-end-line="180" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/hyjf/class/wrapper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/hyjf/class/boundtest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/hyjf/class/listInstance.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/hyjf/class/decorator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="8" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/hyjf/class/person.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="19" lean-forward="true" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/hyjf/class/tracer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="24" selection-start-line="7" selection-start-column="8" selection-end-line="8" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/hyjf/class/tracerrrr.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://G:/Python/Python37/Lib/site-packages/mysql/connector/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="127" column="4" selection-start-line="127" selection-start-column="4" selection-end-line="127" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/hyjf/class/tmp.py" />
+    <entry file="file://$PROJECT_DIR$/com/hyjf/crawler/requesttest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="12" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/hyjf/class/registry.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/hyjf/decoratortest2.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/hyjf/decoratortest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="55" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/locktest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Student.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/hyjf/settest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.IntelliJIdea2018.1/system/python_stubs/1562548280/array.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5219">
+          <caret line="307" selection-start-line="307" selection-end-line="307" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/hyjf/jyh.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/hyjf/tmptest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/hyjf/pandas/pandastest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/hyjf/pandas/api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="52" column="9" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/hyjf/class/syncdbtool.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/hyjf/binggocall.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="58" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/hyjf/smoothpython/strategy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="27" column="34" selection-end-line="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/hyjf/smoothpython/strategyrefactor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="761">
+          <caret line="84" lean-forward="true" selection-start-line="84" selection-end-line="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/hyjf/smoothpython/registration.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="8" lean-forward="true" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/hyjf/smoothpython/parametescope.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/hyjf/smoothpython/timeelapsedcount.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/hyjf/smoothpython/fibonacci.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/hyjf/smoothpython/shallowcopy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="15" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/hyjf/smoothpython/average.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="38" column="22" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/hyjf/smoothpython/coroaverage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="26" lean-forward="true" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/hyjf/smoothpython/simplecoro2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/hyjf/smoothpython/simplecoroutine.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/hyjf/smoothpython/chain.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/hyjf/smoothpython/coroaverager3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="49" column="14" selection-start-line="49" selection-start-column="14" selection-end-line="49" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://G:/Python/Python37/Lib/site-packages/business_calendar/business_calendar.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="118" column="8" selection-start-line="118" selection-start-column="8" selection-end-line="118" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://G:/Python/Python37/Lib/datetime.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1720" column="8" selection-start-line="1720" selection-start-column="8" selection-end-line="1720" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/stdlib/2and3/datetime.pyi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="179" column="12" selection-start-line="179" selection-start-column="12" selection-end-line="179" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/hyjf/utils/calc_attendance.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="92" column="20" selection-start-line="92" selection-start-column="20" selection-end-line="92" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
