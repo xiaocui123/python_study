@@ -7,8 +7,8 @@ def calc(df,employee_id):
 
     cal = Calendar()
     # TODO 参数外部配置
-    date1 = datetime(2019,6,1)
-    date2 = datetime(2019,6,30)
+    date1 = datetime(2019,7,1)
+    date2 = datetime(2019,8,1)
 
     # 工作日字符串列表
     my_date_key_list=[date_time.strftime('%Y-%m-%d') for date_time in list(cal.range(date1,date2))]
@@ -83,7 +83,7 @@ def calc(df,employee_id):
 
 if __name__ == '__main__':
 
-    df=pandas.read_excel("G:/技术部6月打卡记录.xlsx",sheet_name='Sheet1',skiprows=0)
+    df=pandas.read_excel("E:/技术部6月打卡记录.xlsx",sheet_name='Sheet1',skiprows=0)
 
     employee=df.set_index("序号").to_dict()['姓名']
 
